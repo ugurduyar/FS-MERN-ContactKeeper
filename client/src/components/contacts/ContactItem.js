@@ -8,9 +8,8 @@ const ContactItem = ({ contact }) => {
         {name}{" "}
         <span
           className={
-            "badge " + (type === "professional")
-              ? "badge-success"
-              : "badge-primary"
+            "badge " +
+            (type === "professional" ? "badge-success" : "badge-primary")
           }
         >
           {type}{" "}
