@@ -34,9 +34,9 @@ const ContactState = (props) => {
 
   const [state, dispatch] = useReducer(contactReducer, initialState);
 
-  //   Add contact
+  // Add contact
 
-  //   Delete contact
+  // Delete contact
 
   // Set current contact
 
