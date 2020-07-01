@@ -8,7 +8,7 @@ function Register() {
 
   const { setAlert } = alertContext;
 
-  const { reguster } = authContext;
+  const { register } = authContext;
 
   const [user, setUser] = useState({
     name: "",
