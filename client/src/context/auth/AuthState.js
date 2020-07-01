@@ -26,6 +26,8 @@ const AuthState = (props) => {
 
   // Load user
 
+  const loadUser = () => console.log("loaduser");
+
   // Register user
   const register = async (formData) => {
     const config = {
@@ -49,10 +51,11 @@ const AuthState = (props) => {
     }
   };
   // Login user
-
+  const login = () => console.log("login");
   // Logout
-
+  const logout = () => console.log("logout");
   // Clear user
+  const clearErrors = () => console.log("clearErrors");
   return (
     <AuthContext.Provider
       value={{
@@ -61,6 +64,11 @@ const AuthState = (props) => {
         loading: state.loading,
         user: state.user,
         error: state.error,
+        register,
+        loadUser,
+        login,
+        logout,
+        clearErrors,
       }}
     >
       {props.children}
