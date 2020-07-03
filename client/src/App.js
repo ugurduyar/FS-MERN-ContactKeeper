@@ -42,5 +42,5 @@ const App = () => {
   );
 };
 
-// Test
+// Test Git changes
 export default App;
