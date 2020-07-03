@@ -33,14 +33,14 @@ export default (state, action) => {
         ),
         loading: false
       };
-    case DELETE_CONTACT:
-      return {
-        ...state,
-        contacts: state.contacts.filter(
-          (contact) => contact.id !== action.payload
-        ),
-        loading: false
-      };
+      case DELETE_CONTACT:
+        return {
+          ...state,
+          contacts: state.contacts.filter(
+            contact => contact._id !== action.payload
+          ),
+          loading: false
+        };
     case CLEAR_CONTACTS:
       return{
         ...state,
