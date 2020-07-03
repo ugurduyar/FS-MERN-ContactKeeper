@@ -23,6 +23,7 @@
   "homepage": "https://github.com/ugurduyar/FS-MERN-ContactKeeper#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "build": "^0.1.4",
     "config": "^3.3.1",
     "express": "^4.17.1",
     "express-validator": "^6.5.0",
