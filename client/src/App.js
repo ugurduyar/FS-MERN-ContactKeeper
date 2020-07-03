@@ -41,5 +41,5 @@ const App = () => {
     </AuthState>
   );
 };
-fetchtest
+
 export default App;
